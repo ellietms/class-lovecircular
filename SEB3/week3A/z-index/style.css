@@ -1,0 +1,21 @@
+
+/* What is stack order?
+The stacking order describes the order in which HTML elements are positioned. 
+ */
+
+ #elem1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+}
+
+#elem2 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    z-index: 1;
+}
