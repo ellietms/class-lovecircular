@@ -1,0 +1,12 @@
+.parent {
+    display: flex; /* children will be flex items */
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.child {
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+}
