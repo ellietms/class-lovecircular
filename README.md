@@ -44,7 +44,7 @@ I will add some videos here in future to help you.
 
 #### clone the repo
 
-Just use your GitHub Desktop(if you have learned it now) and use this url : 
+Just use your GitHub Desktop(if you have learned it now) and use this url: https://github.com/ellietms/class-lovecircular.git 
 
 
 
