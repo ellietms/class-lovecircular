@@ -1,7 +1,7 @@
 # Lovecircular Software Engineering-Practice at class repo 
 
 
-Welcome to software engineering repository practice at class repo.
+Welcome to the software engineering repository practice at the class repo.
 
 Here you can find all of the practice we do together at class.
 
@@ -28,8 +28,8 @@ Here you can find all of the practice we do together at class.
 
 You can see 3 buttons on the top right corner of the repo, the last button is a star, just press it.
 
-now if you go back to your profile, you will see on the top of the page you have an overview, repositories,.., and starts.
-in your starts section, you will find this repo.
+now if you go back to your profile, you will see on the top of the page you have an overview, repositories,.., and stars.
+in your stars section, you will find this repo.
 If you need help reach out to me in slack.
 I will add some videos here in future to help you.
 
