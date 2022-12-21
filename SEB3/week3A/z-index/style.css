@@ -8,6 +8,7 @@ The stacking order describes the order in which HTML elements are positioned.
     height: 200px;
     background-color: red;
     position: relative;
+    z-index: 1;
 }
 
 #elem2 {
@@ -17,5 +18,15 @@ The stacking order describes the order in which HTML elements are positioned.
     width: 100px;
     height: 100px;
     background-color: blue;
-    z-index: 1;
+    z-index: 2;
+}
+
+#elem3{
+   position: absolute;
+   top: 150px;
+   background-color: pink;
+   width: 100px;
+   height: 50px;
+   background-color: pink;
+   z-index: 2;
 }
