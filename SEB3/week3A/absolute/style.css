@@ -1,0 +1,59 @@
+/* Example 1 */
+
+/* #elem1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+} */
+
+/* #elem2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+} */
+
+/* Example 2 */
+
+/* #elem2 {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+} */
+
+/* Example 3 */
+
+/* #elem2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+} */
+
+/* Example 4 */
+
+/* #elem2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+} */
+
+
+/* Example 5 */
+
+/* #elem2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+} */
+
