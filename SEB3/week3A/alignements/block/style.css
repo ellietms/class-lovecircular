@@ -1,0 +1,20 @@
+.parent {
+    border: 1px solid red;
+}
+
+.child {
+    height: 100px;
+    width: 200px;
+    border: 1px solid green;
+    margin: 10px auto;
+}
+
+
+.child:nth-child(1){
+    background-color: pink;
+    width: 100px;
+}
+
+/* tr:nth-child(even) {
+    background: lightgray;
+  } */

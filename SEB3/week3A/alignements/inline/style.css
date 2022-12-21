@@ -1,0 +1,42 @@
+
+/* Exercise 1 */
+
+/* .parent {
+      padding: 10px 0;
+      border: 1px solid red;
+      text-align: center;
+  } */
+  
+/* Exercise 2 */
+
+/* .parent {
+      padding: 10px 0;
+      border: 1px solid red;
+      text-align: right;
+  } */
+  
+/* Exercise 3 */
+
+/* .parent {
+      padding: 10px 10px;
+      border: 1px solid red;
+    text-align: right;
+  } */
+
+
+/* Exercise 4 */
+
+.parent-2{
+  padding: 10px 0;
+  border: 1px solid red;
+  text-align: center;
+}
+
+
+/* Exercise 5 */
+
+.parent-3{
+  padding: 10px 0;
+  border: 1px solid red;
+  text-align: right;
+}
