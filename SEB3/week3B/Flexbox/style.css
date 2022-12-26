@@ -1,12 +1,90 @@
-.parent {
-    display: flex; /* children will be flex items */
-    width: 300px;
-    height: 200px;
-    border: 1px solid red;
+.parent{
+    border: 2px solid blue;
+    /* width: 600px; */
+    /* height: 300px;  */
+    display: flex;
+    padding: 15px;
 }
 
-.child {
+
+.child{
+    border: 1px solid green;
     width: 50px;
     height: 50px;
-    border: 1px solid green;
+    margin: 15px;
 }
+
+
+.parent-2{
+    border: 2px solid red;
+    display: inline-flex;
+    padding: 12px;
+}
+
+
+ /* exercise align - flex box */
+
+/* .parent-3{
+   border: 3px solid purple;
+   display: flex;
+   width: 700px;
+   height: 300px;
+   justify-content: center;
+} */
+
+
+/* space-around - between */
+.parent-3{
+   border: 3px solid purple;
+   display: flex;
+   width: 700px;
+   height: 300px;
+   justify-content:space-evenly;
+}
+
+
+.child-3{
+   border: 1px solid lightblue;
+   width: 120px;
+   height: 80px;
+}
+
+/* flex direction  */
+.parent-4{
+    border: 3px solid purple;
+    display: flex;
+    /* 1 */
+    /* flex-direction: row; */
+    /* 2 */
+    /* flex-direction: column; */
+    /* 3 */
+    /* flex-direction: row-reverse; */
+    /* 4 */
+    flex-direction: column-reverse;
+    width: 700px;
+    height: 300px;
+ }
+ 
+ 
+ .child-4{
+    border: 1px solid lightblue;
+    width: 120px;
+    height: 80px;
+ }
+
+
+ .parent-5{
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    width: 700px;
+    height: 600px;
+ }
+ 
+ 
+ .child-5{
+    border: 1px solid lightblue;
+    width: 120px;
+    height: 80px;
+ }

@@ -1,5 +1,30 @@
 /* Example 1 */
 
+#elem1 {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+#elem2 {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* #elem1 {
     width: 200px;
     height: 200px;
