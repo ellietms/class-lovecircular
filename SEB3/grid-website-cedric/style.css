@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .parent {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    min-height: 100vh;
+    text-align: center;
+  
+  }
+  
+  header {
+    grid-area: 1 / 1 / 2 / 3;
+    margin-bottom: 0;
+    border: 2px solid lightslategray;
+  }
+  
+  header h2 {
+    color: lightslategray;
+    font-weight: bold;
+    padding: 55px;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+  }
+  
+  .sidebar {
+    background-color: rgb(83, 95, 107);
+    color: whitesmoke;
+    font-weight: bold;
+    padding-top: 30px;
+    grid-area: 2 / 1 / 4 / 2;
+    margin-top: 0;
+  
+  }
+  
+  footer {
+    background-color: lightslategray;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 27px;
+  }
+  
+  main {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-area: 2 / 2 / 3 / 3;
+    margin-top: 0;
+    background-color: whitesmoke;
+    padding: 10px;
+    height: 500px;
+    overflow: scroll;
+    padding: 8px;
+  }
+  
+  main h2 {
+    color: lightslategray;
+  
+  }
+  
+  .product-container {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+  }
+  
+  .product {
+    height: 350px;
+    width: 270px;
+    margin-top: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 5px; 
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  img{
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  
+  .text-container {
+    line-height: 30px;
+    font-style: italic;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  h3 {
+    color: rgb(195, 199, 204);
+  }
+  
+  h4 {
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 25px;
+    color: red;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  li {
+    list-style: none;
+    font-size: 14px;
+    padding: 5px;
+  
+  }
+  
+  a {
+    color: white;
+  }
