@@ -62,8 +62,13 @@ function create(a, b){
     catch(error){
       console.log("Sorry, something went wrong! we are on it" , error)
     //   new throw 
+      throw new Error("I'm Error")
     }
 }
+
+create(1,2)
+
+
 
 
 
