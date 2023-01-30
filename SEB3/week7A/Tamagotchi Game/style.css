@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkviolet;
+    padding: 24px;
+  }
+  
+  .screen {
+    background-color: white;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 400px;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  #petImg {
+    border-radius: 10px;
+  }
+  
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    margin-bottom: 24px;
+    /* This is a useful property to update default form control colors */
+    accent-color: darkviolet;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* Reset list styles */
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  button {
+    padding: 6px 12px;
+    background-color: darkblue;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    flex: 1;
+  }
+  
+  button:hover {
+    background: darkcyan;
+  }
+  
+  button:active {
+    background: darkmagenta;
+  }
