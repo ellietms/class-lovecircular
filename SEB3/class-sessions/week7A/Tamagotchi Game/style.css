@@ -3,21 +3,27 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: darkviolet;
+    background-color: lightgray;
     padding: 24px;
+    font-family: 'VT323', monospace;
+    background-image: url("https://c8.alamy.com/comp/MP99B0/background-of-tamagotchi-pattern-vector-illustration-MP99B0.jpg");
+    background-size: cover;
   }
   
   .screen {
-    background-color: white;
+    background-color: lightgray;
     border-radius: 16px;
     width: 100%;
     max-width: 400px;
     padding: 16px;
     text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
   }
   
   #petImg {
     border-radius: 10px;
+    
   }
   
   .stats {
@@ -26,7 +32,7 @@ body {
     gap: 8px;
     margin-bottom: 24px;
     /* This is a useful property to update default form control colors */
-    accent-color: darkviolet;
+    accent-color: green;
   }
   
   .buttons {
@@ -47,12 +53,20 @@ body {
     border-radius: 4px;
     cursor: pointer;
     flex: 1;
+    transition: all 0.5s ;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    box-shadow: 0px 0px 20px 0px darkgrey;
+
   }
   
   button:hover {
-    background: darkcyan;
+    background: darkmagenta;
   }
+
+
   
   button:active {
     background: darkmagenta;
   }
+  
