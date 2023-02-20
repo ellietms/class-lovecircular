@@ -1,0 +1,16 @@
+//  test of a unit of source code
+// unit of source code is functions
+
+// jest : javascript testing framework which is designed to make testing as easy as possible
+
+// why?  to ensure that the system is working correctly.
+
+// Tests are based on assertions.
+
+//Assertions are made up of expectations and matchers.
+// The simplest and most common assertion expects the tested value to match a specific value.
+
+
+
+
+
