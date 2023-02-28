@@ -41,15 +41,15 @@ function inputCall(){
    console.log(input.getAttribute("value"))
 }
 
-// button1.addEventListener("click",  function (event){
-//     alert("You clicked me!!")
-//     document.body.style.background = "blue";
-//     console.log("YOU have done it !")
-//     console.log(event)
-//     // divContainer.innerHTML = "<h1> YES </h1> <p> this is paragraph</p>"
-//     // divContainer.innerText = "The button is clicked!!!!" 
+button1.addEventListener("click",  function (event){
+    alert("You clicked me!!")
+    document.body.style.background = "blue";
+    console.log("YOU have done it !")
+    console.log(event)
+    // divContainer.innerHTML = "<h1> YES </h1> <p> this is paragraph</p>"
+    // divContainer.innerText = "The button is clicked!!!!" 
     
-// })
+})
 
 
 // input.addEventListener("keydown", function(event){
