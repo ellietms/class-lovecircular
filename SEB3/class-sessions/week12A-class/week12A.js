@@ -77,12 +77,25 @@ app.post("/youtube/signup", (req,res)=> {
 })
 
 
-
 // get - specific data
+app.get("/user/:id", (req,res) => {
+    // find this user in the database - youtubeusers by id
+    const userId = req.params.id
+    const specificUser = youTubeUsers.find(user => user.id === userId)
+    res.send(specificUser)
+})
 
 
 
 // delete
+app.delete("/user/:id", (req,res) => {
+    const userId = req.params.id;
+    const findUser = youTubeUsers.find(user => user.id === userId)
+    youTubeUsers = youTubeUsers.filter(user => user.id !== userId)
+    console.log("User" , findUser)
+    res.send(`${findUser.name} is removed successfuly!!`)
+})
+
 
 
 // update
