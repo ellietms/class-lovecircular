@@ -98,7 +98,31 @@ app.delete("/user/:id", (req,res) => {
 
 
 
-// update
+// update , patch, put ()
+
+app.patch("/user/:id", (req,res) => {
+    let {id} = req.params;
+    const{name, emailAddress ,password } = req.body 
+    const findUser = youTubeUsers.find(user => user.id === id);
+
+    if(name){
+        findUser.name = name
+    }
+
+    if(emailAddress){
+        findUser.emailAddress = emailAddress
+    }
+
+    if(password){
+        findUser.password = password
+    }
+
+    res.send("updated!")
+
+} )
+
+
+
 
 
 
