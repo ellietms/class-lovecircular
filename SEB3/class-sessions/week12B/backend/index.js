@@ -1,6 +1,6 @@
 // sport , cloths , flowers, cars , etc  
 
-// database =  [{id, }, {} , {}] 
+// database =  [{id: uuid() , }, {} , {}] 
 
 // 2 get request  -  (/sports) - (/ sports/basketballs)  - (sports/ )
 
@@ -9,10 +9,12 @@
 
 // 2 post request - 
 
-// post with id - 
+// app.get("/login" , (req,res) => {
+//     res.send .... 
+// })
 
+// app.get("/submission", () => {})
 
-// 2 delete with id  - 
+// app.post("userInfo", (req,res) => {
 
-
-// 2 update with id - 
+// })
