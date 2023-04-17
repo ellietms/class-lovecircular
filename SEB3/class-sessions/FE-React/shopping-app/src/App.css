@@ -1,0 +1,10 @@
+.header{
+  border: 1px solid red;
+}
+
+.main{
+  display: flex;
+  margin: auto auto;
+  width: 60%;
+  height:80%
+}
