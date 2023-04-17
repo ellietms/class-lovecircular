@@ -2,9 +2,28 @@
   border: 1px solid red;
 }
 
+
 .main{
+  height:80%;
+  justify-content: flex-start;
+  width: 200px;
+}
+
+
+
+.footer{
   display: flex;
-  margin: auto auto;
-  width: 60%;
-  height:80%
+  margin-top: 60%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container{
+  border: 2px solid black;
+  display:flex;
+  margin-bottom: 20px;
+}
+
+.info{
+  margin-left: 100px;
 }
