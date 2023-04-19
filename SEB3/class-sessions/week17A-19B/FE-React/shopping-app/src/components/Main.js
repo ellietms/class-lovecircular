@@ -1,12 +1,8 @@
 import "../App.css";
 import Button from "./Button";
 
-function Main({fruits}) {
-    function handleClickMe(event){
-        console.log("You clicked Me!")
-        console.log("event :" , event)
-       
-    }
+function Main({fruits , handleClickMe}) {
+    
     return (
       <div>
      {fruits.map((fruitData,index) =>(
@@ -17,9 +13,9 @@ function Main({fruits}) {
       />
       <div className="info"> 
         <p>Description : {fruitData.des}</p>
-        <button>add</button>
+        <Button handleClickMe = {handleClickMe}/>
       </div>
-      <Button handleClickMe = {(event) => handleClickMe(event)}/>
+      
       </div>)
      )}
      </div>

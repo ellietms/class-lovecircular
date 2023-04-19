@@ -27,3 +27,17 @@
 .info{
   margin-left: 100px;
 }
+
+.headerContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.basket-btn{
+  border: 1px solid black;
+  padding: 3px;
+}
+
+#order{
+  border: 1px solid red;
+}

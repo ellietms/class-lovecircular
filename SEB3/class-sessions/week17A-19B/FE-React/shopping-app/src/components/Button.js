@@ -2,7 +2,7 @@
 function Button({handleClickMe}){
     return(
         <div>
-            <button onClick={handleClickMe}>Click Me</button>
+            <button onClick={handleClickMe}>Add</button>
         </div>
 
     )
